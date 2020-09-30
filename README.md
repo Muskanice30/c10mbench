@@ -23,7 +23,7 @@ to physical ones. At scale, these pages tables no longer fit in cache.
 16-gigabytes worth of data requires 32-megabytes worth of pages tables,
 where a cache is around 10-megabytes.
 
-Therefore, every memory access becomes two, doubling memory latency.
+thus, every memory access becomes two, doubling memory latency.
 
 One way to mitigate this is through the use of "huge pages" of 
 2-megabytes instead of 4-kilobytes. This reduces the page tables
